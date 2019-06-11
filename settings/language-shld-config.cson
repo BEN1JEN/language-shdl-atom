@@ -1,0 +1,10 @@
+'.text.shld-config':
+	'editor': [
+		'comment': ';'
+		'commentEol': '#'
+		'commentMlStart': '<'
+		'commentMlEnd': '>'
+		'escape': '\\'
+		'mlStart': '{'
+		'mlEnd': '}'
+	]

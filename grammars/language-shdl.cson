@@ -1,0 +1,10 @@
+name: 'Language sHDL'
+scopeName: 'language-shdl'
+type: 'tree-sitter'
+parser: 'tree-sitter-language-shdl'
+fileTypes: [
+	'shld'
+	'chp'
+]
+firstLineRegex: '^((input|output|inout|wire|include|chip)(\\s+[\\w\\[\\]\\.]+)+{.*|\\w*(\\[\\d+(:\\d+)?\\])*(\\.\\w+)?(\\[\\d+(:\\d+)?\\])*\\s*=\\s*.*)$'
+contentRegex: '^((input|output|inout|wire|include|chip)(\\s+[\\w\\[\\]\\.]+)+{.*|\\w*(\\[\\d+(:\\d+)?\\])*(\\.\\w+)?(\\[\\d+(:\\d+)?\\])*\\s*=\\s*.*)$'

@@ -1,0 +1,40 @@
+{
+	"name": "language-shdl",
+	"author": "BEN1JEN",
+	"version": "1.0.0",
+	"description": "Provides basic syntax highlighting for shdl chp files.",
+	"keywords": [
+		"simple",
+		"hardware",
+		"description",
+		"language",
+		"hdl",
+		"shdl",
+		"chp",
+		"language"
+		"grammar",
+		"syntax",
+		"highlight",
+		"highlighting",
+		"benonejenpackage"
+	],
+	"repository": "https://github.com/ben1jen/language-shdl-atom",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=0.196.0 <2.0.0"
+	},
+	"atomTestRunner": "./spec/runner",
+	"devDependencies": {},
+	"configSchema": {
+		"enableOnChip": {
+			"type": "boolean",
+			"default": true,
+			"description": "Assign grammar to files with a .chp extension if syntax is mostly valid shdl.",
+			"order": 1
+		}
+	},
+	"standard": {
+		"env": "mocha",
+		"globals": [ "atom", "expect" ]
+	}
+}
